@@ -53,9 +53,6 @@ model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accurac
 # Обучение модели
 model.fit(X, y, epochs=5, batch_size=32)
 
-# Запуск видеопотДля обработки видеопотока и классификации кадров в режиме реального времени, вы можете использовать OpenCV. Вот пример кода на Python, который показывает, как это можно сделать:
-
-
 # Запуск видеопотока
 cap = cv2.VideoCapture(0)
 
